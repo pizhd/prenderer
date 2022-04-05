@@ -1,0 +1,3 @@
+/mnt/e/Codes/cpp/prenderer/build/CMakeFiles/edit_cache.dir
+/mnt/e/Codes/cpp/prenderer/build/CMakeFiles/rebuild_cache.dir
+/mnt/e/Codes/cpp/prenderer/build/CMakeFiles/prenderer.dir

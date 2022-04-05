@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/Codes/cpp/prenderer/src/main/main_developer.cpp
+iostream
+-
+../models/model/test.h
+/mnt/e/Codes/cpp/prenderer/src/models/model/test.h
+
+/mnt/e/Codes/cpp/prenderer/src/models/model/test.cpp
+
+/mnt/e/Codes/cpp/prenderer/src/models/model/test.h
+

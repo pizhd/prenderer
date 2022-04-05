@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/mnt/e/Codes/cpp/prenderer/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/prenderer.dir/src/main/main_developer.cpp.o -c /mnt/e/Codes/cpp/prenderer/src/main/main_developer.cpp",
+  "file": "/mnt/e/Codes/cpp/prenderer/src/main/main_developer.cpp"
+},
+{
+  "directory": "/mnt/e/Codes/cpp/prenderer/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/prenderer.dir/src/models/model/test.cpp.o -c /mnt/e/Codes/cpp/prenderer/src/models/model/test.cpp",
+  "file": "/mnt/e/Codes/cpp/prenderer/src/models/model/test.cpp"
+}
+]

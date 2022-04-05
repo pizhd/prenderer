@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -rdynamic CMakeFiles/prenderer.dir/src/main/main_developer.cpp.o CMakeFiles/prenderer.dir/src/models/model/test.cpp.o  -o prenderer 
