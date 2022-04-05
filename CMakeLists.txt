@@ -1,0 +1,29 @@
+cmake_minimum_required(VERSION 3.2)
+PROJECT(prenderer)
+
+# 配置main入口
+SET(MAIN_FILE main_developer.cpp)
+SET(MAIN ${CMAKE_CURRENT_LIST_DIR}/src/main/${MAIN_FILE} )
+
+
+# 配置models
+SET(PROJECT_MODELS_DIR ${CMAKE_CURRENT_LIST_DIR}/src/models)
+AUX_SOURCE_DIRECTORY(${PROJECT_MODELS_DIR}/model m_MODEL)
+
+# 配置libs
+SET(PROJECT_LIB_DIR ${CMAKE_CURRENT_LIST_DIR}/src/libs)
+
+
+
+ADD_EXECUTABLE(${PROJECT_NAME} 
+    ${MAIN}
+    ${m_MODEL}
+    )
+
+
+# INCLUDE_DIRECTORIES(
+#     ${INCLUDE_DIR}/test2
+# )
+# SET(INCLUDE_DIR ${PROJECT_SOURCE_DIR}/include)
+# TARGET_LINK_LIBRARIES(
+#     )
